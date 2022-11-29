@@ -1,0 +1,17 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    background-color: #363636;
+    color: white;
+}
+
+header {
+    text-align: center;
+}
+
+#playButton {
+    border-radius: 100%;
+    width: 30rem;
+    height: 30rem;
+    border: none;
+}
+
