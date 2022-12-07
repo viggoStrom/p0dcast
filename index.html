@@ -10,6 +10,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest"> -->
 </head>
 
 <body>
@@ -30,12 +35,12 @@
                     cupiditate, nesciunt itaque labore iusto obcaecati.
                 </p>
             </div>
-            <button id="playButton"></button>
-            <audio>
-                <source src="horse.ogg" type="audio/ogg">
-                <source src="horse.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
+
+            <div id="playButton" onclick="playPause()" >
+                <p id="playArrow" mark>▶</p>
+                <p id="pauseBars" mark>||</p>
+            </div>
+
             <div class="aboutWrapper">
                 <h2 class="placeHolderSingAlong">About</h2>
                 <p class="placeHolderSingAlong">
@@ -48,12 +53,18 @@
             </div>
         </div>
         <div class="progressbarWrapper">
-            <p id="time">00:00</p>
-            <div id="progressbar">----------</div>
-            <p id="timeLeft">00:00</p>
+            <!-- <p id="time">00:00</p> -->
+            <!-- <div id="progressbar">----------</div> -->
+            <!-- <p id="timeLeft">00:00</p> -->
+            <audio controls>
+                <source src="src/viggoSannieSamirEric.wav" type="audio/wav">
+                <source src="src/viggoSannieSamirEric.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
         </div>
     </section>
     <p id="easterEgg">Daniil was here, hehehe</p>
+    <script src="script/playPause.js"></script>
 </body>
 
 </html>

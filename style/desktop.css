@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto Mono", monospace;
+    font-family: "Roboto Mono", 'Courier New', Courier, monospace;
     background-color: #363636;
     color: white;
 }
@@ -14,9 +14,48 @@ header {
     height: 30rem;
     aspect-ratio: 1/1;
     border: none;
+    background-color: white;
+
     mask-image: url(../src/logoPlaceholderCropped.png);
     mask-repeat: no-repeat;
+
+    color: #252525;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#playArrow {
+    display: block;
+
+    cursor: pointer;
+    height: fit-content;
+    flex: 1;
+    font-size: 15rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    user-select: none;
+}
+#pauseBars {
+    display: none;
+
+    cursor: pointer;
+    height: fit-content;
+    flex: 1;
+    font-size: 15rem;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-left: 0.1rem;
+    padding-bottom: 3rem;
+    user-select: none;
+}
+
 
 .mainSectionWrapper {
     display: flex;
@@ -64,4 +103,8 @@ section {
     margin: .5rem;
     font-size: smaller;
     color: rgb(160, 160, 160);
+}
+
+audio {
+    margin: .5rem;
 }
