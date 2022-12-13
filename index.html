@@ -37,24 +37,16 @@
             </div>
 
             <div id="playButton" onclick="playPause()" >
-                <p id="playArrow" mark>▶</p>
-                <p id="pauseBars" mark>||</p>
+                <p id="playArrow">▶</p>
+                <p id="pauseBars">||</p>
             </div>
 
-            <div class="aboutWrapper">
-                <h2 class="placeHolderSingAlong">About</h2>
-                <p class="placeHolderSingAlong">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae veritatis corporis repudiandae
-                    numquam incidunt accusamus pariatur cumque cum, deleniti eius, possimus atque voluptates nihil nam
-                    nostrum inventore facilis officia unde. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Placeat, in maiores cum error eligendi omnis excepturi minima numquam quam architecto voluptatem nam
-                    repudiandae tempore dolores molestias provident asperiores iste dolore!
-                </p>
-            </div>
+            <!-- janky workaround so that things are centered -->
+            <div class="aboutWrapper"></div>
         </div>
         <div class="progressbarWrapper">
             <!-- <p id="time">00:00</p> -->
-            <!-- <div id="progressbar">----------</div> -->
+            <!-- <div id="progressbar">==========</div> -->
             <!-- <p id="timeLeft">00:00</p> -->
             <audio controls>
                 <source src="src/viggoSannieSamirEric.wav" type="audio/wav">
@@ -63,7 +55,9 @@
             </audio>
         </div>
     </section>
+
     <p id="easterEgg">Daniil was here, hehehe</p>
+
     <script src="script/playPause.js"></script>
 </body>
 
