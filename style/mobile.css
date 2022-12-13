@@ -1,0 +1,109 @@
+body {
+    font-family: "Roboto Mono", 'Courier New', Courier, monospace;
+    background-color: #363636;
+    color: white;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.desktopOnly {
+    display: none;
+}
+
+#playButton {
+    width: 20rem;
+    height: 20rem;
+    
+    border: none;
+    border-radius: 100%;
+
+    background-color: white;
+    color: #252525;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+#playArrow {
+    flex: 1;
+
+    display: block;
+
+    cursor: pointer;
+    user-select: none;
+
+    height: fit-content;
+
+    font-size: 10rem;
+    text-align: center;
+
+    margin: 0;
+    padding: 0;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+#pauseBars {
+    flex: 1;
+    
+    display: none;
+
+    cursor: pointer;
+    user-select: none;
+
+    height: fit-content;
+    
+    font-size: 10rem;
+    font-weight: bolder;
+    text-align: center;
+    
+    margin: 0;
+    padding: 0;
+    padding-left: 0.1rem;
+    padding-bottom: 3rem;
+}
+
+
+.mainSectionWrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.aboutWrapper {
+    margin: 0rem 1.5rem 0rem 1.5rem;
+}
+
+section {    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.progressbarWrapper {
+    display: flex;
+    flex-flow: row nowrap;
+
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+#easterEgg {
+    bottom: 0;
+    font-size: 14px;
+    color: rgba(150, 150, 150, 0.4);
+}
+
+audio {
+    margin: .5rem;
+}

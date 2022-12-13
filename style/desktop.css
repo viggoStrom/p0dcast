@@ -12,6 +12,10 @@ h1 {
     font-size: 2.5rem;
 }
 
+.mobileOnly {
+    opacity: 0;
+}
+
 #playButton {
     width: 30rem;
     height: 30rem;
@@ -83,7 +87,7 @@ h1 {
 
 section {
     margin: 1rem 5rem 1rem 5rem;
-    
+
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;

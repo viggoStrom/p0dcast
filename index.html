@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PODCAST</title>
     <link rel="stylesheet" media="only screen and (min-width: 1026px)" href="style/desktop.css">
+    <link rel="stylesheet" media="only screen and (max-width: 1026px)" href="style/mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
@@ -25,7 +26,7 @@
 
     <section>
         <div class="mainSectionWrapper">
-            <div class="aboutWrapper">
+            <div class="aboutWrapper desktopOnly">
                 <h2>About</h2>
                 <p>
                     Sannie har bjudit in Viggo, Eric och Samir för att gästa i ett podcast avsnitt. Många viktiga frågor
@@ -40,8 +41,15 @@
                 <p id="pauseBars">||</p>
             </div>
 
-            <!-- janky workaround so that things are centered -->
-            <div class="aboutWrapper"></div>
+            <div class="aboutWrapper mobileOnly">
+                <h2>About</h2>
+                <p>
+                    Sannie har bjudit in Viggo, Eric och Samir för att gästa i ett podcast avsnitt. Många viktiga frågor
+                    diskuteras om youtube från ett samtidsperspektiv till deras historia och programmering bakom den
+                    stora videodelingssajten. Du kommer att få ta del av djupgående information från hur youtube startas
+                    till hur multimiljard företaget ser ut idag. Var youtube från början en dejtingsajt kanske?
+                </p>
+            </div>
         </div>
 
         <div class="progressbarWrapper">
