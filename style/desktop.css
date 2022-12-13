@@ -8,14 +8,21 @@ header {
     text-align: center;
 }
 
+h1 {
+    font-size: 2.5rem;
+}
+
 #playButton {
-    border-radius: 100%;
     width: 30rem;
     height: 30rem;
+    
     border: none;
-    background-color: white;
+    border-radius: 100%;
 
+    background-color: white;
     color: #252525;
+
+    margin: 1rem;
 
     display: flex;
     justify-content: center;
@@ -23,34 +30,42 @@ header {
 }
 
 #playArrow {
+    flex: 1;
+
     display: block;
 
     cursor: pointer;
+    user-select: none;
+
     height: fit-content;
-    flex: 1;
+
     font-size: 15rem;
     text-align: center;
+
     margin: 0;
     padding: 0;
     padding-left: 2rem;
     padding-bottom: 1rem;
-    user-select: none;
 }
 
 #pauseBars {
+    flex: 1;
+    
     display: none;
 
     cursor: pointer;
+    user-select: none;
+
     height: fit-content;
-    flex: 1;
+    
     font-size: 15rem;
     font-weight: bolder;
     text-align: center;
+    
     margin: 0;
     padding: 0;
     padding-left: 0.1rem;
     padding-bottom: 3rem;
-    user-select: none;
 }
 
 
@@ -68,6 +83,7 @@ header {
 
 section {
     margin: 1rem 5rem 1rem 5rem;
+    
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -76,11 +92,14 @@ section {
 .progressbarWrapper {
     display: flex;
     flex-flow: row nowrap;
-    text-align: center;
+
     justify-content: center;
     align-content: center;
+    text-align: center;
 }
 
+/* maybe in the future */
+/* 
 #progressbar {
     width: 20%;
     height: 1rem;
@@ -88,7 +107,7 @@ section {
     color: rgb(140, 0, 0);
     border-color: #252525;
     border-width: 4px;
-}
+} */
 
 #easterEgg {
     bottom: 0;
