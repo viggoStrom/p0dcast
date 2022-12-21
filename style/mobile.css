@@ -1,3 +1,7 @@
+#noJs {
+    display: none;
+}
+
 body {
     font-family: "Roboto Mono", 'Courier New', Courier, monospace;
     background-color: #363636;

@@ -1,3 +1,5 @@
+document.getElementsByClassName("noJs").class = ""
+
 const audio = document.querySelector('audio');
 const playArrow = document.getElementById("playArrow")
 const pauseBars = document.getElementById("pauseBars");
