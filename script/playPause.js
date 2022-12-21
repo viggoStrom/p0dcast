@@ -1,8 +1,12 @@
-document.getElementsByClassName("noJs").class = ""
 
-const audio = document.querySelector('audio');
-const playArrow = document.getElementById("playArrow")
-const pauseBars = document.getElementById("pauseBars");
+const audio = document.querySelector("audio");
+const playButton = document.getElementsByClassName("playButton")[0]
+const playArrow = document.getElementsByClassName("playArrow")[0]
+const pauseBars = document.getElementsByClassName("pauseBars")[0]
+
+playButton.setAttribute("id", "")
+playArrow.setAttribute("id", "")
+pauseBars.setAttribute("id", "")
 
 playPause = () => {
     if (audio.paused) {

@@ -1,4 +1,4 @@
-.noJs {
+#noJs {
     display: none;
 }
 
@@ -20,7 +20,7 @@ h1 {
     opacity: 0;
 }
 
-#playButton {
+.playButton {
     width: 30rem;
     height: 30rem;
     
@@ -37,7 +37,7 @@ h1 {
     align-items: center;
 }
 
-#playArrow {
+.playArrow {
     flex: 1;
 
     display: block;
@@ -56,7 +56,7 @@ h1 {
     padding-bottom: 1rem;
 }
 
-#pauseBars {
+.pauseBars {
     flex: 1;
     
     display: none;
