@@ -20,7 +20,7 @@ h1 {
     display: none;
 }
 
-#playButton {
+.playButton {
     width: 20rem;
     height: 20rem;
     
@@ -36,7 +36,7 @@ h1 {
     align-self: center;
 }
 
-#playArrow {
+.playArrow {
     flex: 1;
 
     display: block;
@@ -55,7 +55,7 @@ h1 {
     padding-bottom: 1rem;
 }
 
-#pauseBars {
+.pauseBars {
     flex: 1;
     
     display: none;
